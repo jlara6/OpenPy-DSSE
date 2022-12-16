@@ -1,4 +1,4 @@
-# py_open_dsse
+# OpenPy-DSSE
 
 It is an open-source library developed in Python for estimating distribution networks (DSSE). It communicates with the free software for the simulation of electrical networks (OpenDSS) and collects the results of power flow and distribution system parameters and executes the DSSE, obtaining an estimated state according to the type and location of measurements.
 
@@ -24,7 +24,7 @@ With pip
 
 Without pip, clone or download the repository, in the dist folder is the .whl file, copy the location of the file, and in the CMD:
 
-``pip install {path-save-files}/py_open_dsse-{version}-py3-none-any.whl’``
+``pip install {path-save-files}/openpy_dsse-{version}-py3-none-any.whl’``
 
 <div id='id2'/>
 
@@ -33,13 +33,13 @@ Without pip, clone or download the repository, in the dist folder is the .whl fi
 First, in the IDE (Integrated Development Environment) of preference, we import the library:
 
 ```Python
-import py_open_dsse
+import openpy_dsse
 ```
 
 The object class that contains all the functions of the library is activated as follows:
 
 ```Python
-dsse = py_open_dsse.init_DSSE()
+dsse = openpy_dsse.init_DSSE()
 ```
 
 The class ``init_DSSE()``, has default values as shown in table 1 and can be modified as appropriate.
@@ -64,7 +64,7 @@ Once the class is initialized, we can use the functions described below.
 
 The library supports meters and their respective error variance described in Table 2.
 
-**Tabla 2.** Measurement type of the ``py_open_dsse`` library.
+**Table 2.** Measurement type of the ``openpy_dsse`` library.
 
 |              **Meter**                 |                                **Description**                |
 |:--------------------------------------:|---------------------------------------------------------------|
@@ -187,7 +187,7 @@ To run the state estimation algorithm, function ``estimate()`` is called, it is 
 
 ## Sample tests
 
-In the path ``:{Python_library_path}/py_open_dsse/examples``, the ``.DSS`` and ``.json`` files of single-phase (``1ph``) and positive sequence equivalent (``Pos``) circuit measurements detailed in Table 11 are located.
+In the path ``:{Python_library_path}/openpy_dsse/examples``, the ``.DSS`` and ``.json`` files of single-phase (``1ph``) and positive sequence equivalent (``Pos``) circuit measurements detailed in Table 11 are located.
 
 **Table 11.** Sample tests
 | **Circuit** | **Tpy_circ** | **Case** |
@@ -198,10 +198,11 @@ In the path ``:{Python_library_path}/py_open_dsse/examples``, the ``.DSS`` and `
 |  37NodeIEEE  |      Pos     |     2    |
 
 The function ``test_circuit(Typ_cir, case)``, returns a dictionary with the keys ``'DSS_file'``, ``'MEAS_path'``, ``'save_path'``, ``'name_project'`` and ``'Typ_cir'`` which correspond to the ``.DSS`` file path, measurement file path, path where results will be saved and circuit type respectively.
-```Python
-import py_open_dsse
 
-dsse = py_open_dsse.init_DSSE() #Start the class.
+```Python
+import openpy_dsse
+
+dsse = openpy_dsse.init_DSSE() #Start the class.
 
 if __name__ == '__main__':
     net = dsse.test_circuit(Typ_cir='1ph', case=1)

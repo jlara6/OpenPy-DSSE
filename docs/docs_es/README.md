@@ -32,7 +32,7 @@ Sin pip, es necesario clonar o descargar el repositorio. En la carpeta ``dist`` 
 Primero, en el IDE (Entorno de Desarrollo Integrado) de preferencia, importamos la librería:
 
 ```Python
-import py_open_dsse
+import openpy_dsse
 ```
 
 Llamamos a la clase objeto que contiene todas las funciones de la libreria, de la siguiente manera:
@@ -199,9 +199,9 @@ En la ruta ``:{Python_library_path}/py_open_dsse/examples``, se encuentran los a
 La función ``test_circuit(Typ_cir, case)``, devuelve un diccionario con las llaves ``'DSS_file'``, ``'MEAS_path'``, ``'save_path'``, ``'name_project'`` y ``'Typ_cir'`` que correspoden a la ruta de archivos ``.DSS``, ruta de archivos de mediciones ``.json``, ruta donde se guardara resultados y tipo de circuito respectivamente.
 
 ```Python
-import py_open_dsse
+import openpy_dsse
 
-dsse = py_open_dsse.init_DSSE() #Start the class.
+dsse = openpy_dsse.init_DSSE() #Start the class.
 
 if __name__ == '__main__':
     net = dsse.test_circuit(Typ_cir='1ph', case=1)

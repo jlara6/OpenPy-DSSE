@@ -1,6 +1,6 @@
-import py_open_dsse
+import openpy_dsse
 
-dsse = py_open_dsse.init_DSSE() #Start the class.
+dsse = openpy_dsse.init_DSSE() #Start the class.
 
 if __name__ == '__main__':
     pass

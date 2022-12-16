@@ -27,7 +27,7 @@ def update_logg_file(msg: str, Typ: int = 0, logger=logger_aux, Logg: bool = Log
     :param Typ: May be: 0(pass), 1(debug), 2(info) 3(warning), 4(error), and 5 (critical). Default=0
     :param Logg: boolean to enable or disable log_py file. Default=True
     :param Print: Display the message by console. Default=True
-    :return: py_open_dsse.log_py
+    :return: openpy_dsse.log_py
     """
     if Logg == True:
         log_format = '%(asctime)s - %(name)s - %(levelname)s - %(msg)s'

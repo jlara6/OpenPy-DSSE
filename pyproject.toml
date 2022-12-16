@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "py-open-dsse"
+name = "openpy-dsse"
 version = "0.1.1"
 license = "LICENSE"
 description = "Open source library for state estimation of a distribution network modeled in OpenDSS"

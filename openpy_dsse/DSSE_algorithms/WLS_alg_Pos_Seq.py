@@ -7,7 +7,7 @@
 
 import logging
 import cmath
-from py_open_dsse.YBus_Matrix_Pos_Seq import *
+from openpy_dsse.YBus_Matrix_Pos_Seq import *
 from .Symb_Eqn.sym_func_Pos_Seq import *
 from ..base_DSSE import functions_DSSE
 from ..error_handling_logging import update_logg_file

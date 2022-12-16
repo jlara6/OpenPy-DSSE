@@ -33,7 +33,7 @@ Without pip, clone or download the repository, in the dist folder is the .whl fi
 First, in the IDE (Integrated Development Environment) of preference, we import the library:
 
 ```Python
-import py_open_dsse
+import openpy_dsse
 ```
 
 The object class that contains all the functions of the library is activated as follows:
@@ -198,10 +198,11 @@ In the path ``:{Python_library_path}/py_open_dsse/examples``, the ``.DSS`` and `
 |  37NodeIEEE  |      Pos     |     2    |
 
 The function ``test_circuit(Typ_cir, case)``, returns a dictionary with the keys ``'DSS_file'``, ``'MEAS_path'``, ``'save_path'``, ``'name_project'`` and ``'Typ_cir'`` which correspond to the ``.DSS`` file path, measurement file path, path where results will be saved and circuit type respectively.
-```Python
-import py_open_dsse
 
-dsse = py_open_dsse.init_DSSE() #Start the class.
+```Python
+import openpy_dsse
+
+dsse = openpy_dsse.init_DSSE() #Start the class.
 
 if __name__ == '__main__':
     net = dsse.test_circuit(Typ_cir='1ph', case=1)
