@@ -1,0 +1,11 @@
+Clear
+
+New Circuit.15node
+
+Redirect Vsource_15node.dss
+
+Redirect Line_15node.dss
+Redirect Load_15node.dss
+Redirect Voltagebases_15node.dss
+
+solve

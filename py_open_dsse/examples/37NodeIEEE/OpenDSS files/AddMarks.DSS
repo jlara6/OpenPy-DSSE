@@ -1,0 +1,40 @@
+ClearBusMarkers    !...Clears any previous bus markers
+
+AddBusMarker Bus=701 code=15 color=Red size=4
+AddBusMarker Bus=712 code=15 color=Red size=4
+AddBusMarker Bus=713 code=15 color=Red size=4
+AddBusMarker Bus=714 code=15 color=Red size=4
+AddBusMarker Bus=718 code=15 color=Red size=4
+AddBusMarker Bus=720 code=15 color=Red size=4
+AddBusMarker Bus=722 code=15 color=Red size=4
+AddBusMarker Bus=724 code=15 color=Red size=4
+AddBusMarker Bus=725 code=15 color=Red size=4
+AddBusMarker Bus=727 code=15 color=Red size=4
+AddBusMarker Bus=728 code=15 color=Red size=4
+AddBusMarker Bus=729 code=15 color=Red size=4
+AddBusMarker Bus=730 code=15 color=Red size=4
+AddBusMarker Bus=731 code=15 color=Red size=4
+AddBusMarker Bus=732 code=15 color=Red size=4
+AddBusMarker Bus=733 code=15 color=Red size=4
+AddBusMarker Bus=734 code=15 color=Red size=4
+AddBusMarker Bus=735 code=15 color=Red size=4
+AddBusMarker Bus=736 code=15 color=Red size=4
+AddBusMarker Bus=737 code=15 color=Red size=4
+AddBusMarker Bus=738 code=15 color=Red size=4
+AddBusMarker Bus=740 code=15 color=Red size=4
+AddBusMarker Bus=741 code=15 color=Red size=4
+AddBusMarker Bus=742 code=15 color=Red size=4
+AddBusMarker Bus=744 code=15 color=Red size=4
+
+!zero injection loads
+AddBusMarker Bus=702 code=15 color=Green size=4
+AddBusMarker Bus=705 code=15 color=Green size=4
+AddBusMarker Bus=704 code=15 color=Green size=4
+AddBusMarker Bus=707 code=15 color=Green size=4
+AddBusMarker Bus=706 code=15 color=Green size=4
+AddBusMarker Bus=703 code=15 color=Green size=4
+AddBusMarker Bus=709 code=15 color=Green size=4
+AddBusMarker Bus=710 code=15 color=Green size=4
+AddBusMarker Bus=711 code=15 color=Green size=4
+
+plot circuit Power max=2000 n n C1=$00FF0000

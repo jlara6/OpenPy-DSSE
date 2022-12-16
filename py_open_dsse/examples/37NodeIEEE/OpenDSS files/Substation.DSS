@@ -1,0 +1,5 @@
+! Substation Transformer
+New Transformer.SubXF Phases=3 Windings=2 Xhl=8
+~ wdg=1 bus=sourcebus conn=Delta kv=230   kva=2500   %r=1
+~ wdg=2 bus=799       conn=Delta kv=4.8   kva=2500   %r=1
+

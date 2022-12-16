@@ -1,0 +1,12 @@
+Clear
+
+New Circuit.4node
+
+Redirect Vsource_4node.dss
+
+Redirect Line_4node.dss
+Redirect Load_4node.dss
+Redirect Voltagebases_4node.dss
+
+solve
+

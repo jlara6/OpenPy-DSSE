@@ -1,0 +1,22 @@
+Clear 
+
+new circuit.IEEE13Nodeckt 
+~ basekv=4.16 pu=1.05 phases=3 bus1=650
+~ Angle=30 ! advance angle 30 deg so result agree with published angle
+~ MVAsc3=20000 MVASC1=21000    ! stiffen the source to approximate inf source
+
+!Redirect Sub_transformer.DSS
+!Redirect Voltage_regulators.DSS
+!Redirect Transformers.DSS
+Redirect LineCodes.dss
+Redirect Loads.DSS
+!Redirect Capacitors.DSS
+Redirect Lines.DSS
+Redirect Switchs.DSS
+
+Set Voltagebases=[4.16, .48]
+calcv
+
+Solve
+BusCoords IEEE13Node_BusXY.csv
+

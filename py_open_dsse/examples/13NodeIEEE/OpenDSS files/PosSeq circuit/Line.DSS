@@ -1,0 +1,12 @@
+New "Line.650632" bus1=650 bus2=632 Seasons=1 Ratings=[400,] length=2000 r1=3.5221E-005 x1=0.00011302 C1=0.00064394 phases=1 normamps=400 emergamps=600 units=ft
+New "Line.632670" bus1=632 bus2=670 Seasons=1 Ratings=[400,] length=667 r1=3.5221E-005 x1=0.00011302 C1=0.00064394 phases=1 normamps=400 emergamps=600 units=ft
+New "Line.670671" bus1=670 bus2=671 Seasons=1 Ratings=[400,] length=1333 r1=3.5221E-005 x1=0.00011302 C1=0.00064394 phases=1 normamps=400 emergamps=600 units=ft
+New "Line.671680" bus1=671 bus2=680 Seasons=1 Ratings=[400,] length=1000 r1=3.5221E-005 x1=0.00011302 C1=0.00064394 phases=1 normamps=400 emergamps=600 units=ft
+New "Line.632633" bus1=632 bus2=633 Seasons=1 Ratings=[400,] length=500 r1=0.00011213 x1=0.00014398 C1=0.00064394 phases=1 normamps=400 emergamps=600 units=ft
+New "Line.632645" bus1=632 bus2=645 Seasons=1 Ratings=[400,] length=500 r1=0.00021212 x1=0.00016911 C1=0.0011742 phases=1 normamps=400 emergamps=600 units=ft
+New "Line.645646" bus1=645 bus2=646 Seasons=1 Ratings=[400,] length=300 r1=0.00021212 x1=0.00016911 C1=0.0011742 phases=1 normamps=400 emergamps=600 units=ft
+New "Line.692675" bus1=692 bus2=675 Seasons=1 Ratings=[400,] length=500 r1=9.120498E-005 x1=7.8059E-005 C1=0.072717 phases=1 normamps=400 emergamps=600 units=ft
+New "Line.671684" bus1=671 bus2=684 Seasons=1 Ratings=[400,] length=300 r1=0.00021212 x1=0.00016911 C1=0.0011742 phases=1 normamps=400 emergamps=600 units=ft
+New "Line.684611" phases=1 bus1=684 bus2=611 linecode=mtx605 Seasons=1 Ratings=[400,] normamps=400 emergamps=600 length=300 units=ft
+New "Line.684652" phases=1 bus1=684 bus2=652 linecode=mtx607 Seasons=1 Ratings=[400,] normamps=400 emergamps=600 length=800 units=ft
+New "Line.671692" bus1=671 bus2=692 Switch=True r1=1 x1=1 C1=1.1 phases=1 length=0.001 normamps=400 emergamps=600 units=none

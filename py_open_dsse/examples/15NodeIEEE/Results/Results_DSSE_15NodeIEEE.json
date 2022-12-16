@@ -1,0 +1,122 @@
+{
+ "0":{
+  "bus_name":"bus_1",
+  "Bus Nro.":1,
+  "V1(pu)_DSS":1.0093941652,
+  "Ang1(deg)_DSS":0.0767375249,
+  "V1(pu)_EST":1.0094,
+  "Ang1(deg)_EST":0.1
+ },
+ "1":{
+  "bus_name":"bus_2",
+  "Bus Nro.":2,
+  "V1(pu)_DSS":0.9749701865,
+  "Ang1(deg)_DSS":-0.0502951368,
+  "V1(pu)_EST":0.975,
+  "Ang1(deg)_EST":0.1019
+ },
+ "2":{
+  "bus_name":"bus_3",
+  "Bus Nro.":3,
+  "V1(pu)_DSS":0.9622835359,
+  "Ang1(deg)_DSS":-0.0548695465,
+  "V1(pu)_EST":0.9623,
+  "Ang1(deg)_EST":0.0993
+ },
+ "3":{
+  "bus_name":"bus_4",
+  "Bus Nro.":4,
+  "V1(pu)_DSS":0.953111372,
+  "Ang1(deg)_DSS":-0.0915301826,
+  "V1(pu)_EST":0.9531,
+  "Ang1(deg)_EST":0.0953
+ },
+ "4":{
+  "bus_name":"bus_5",
+  "Bus Nro.":5,
+  "V1(pu)_DSS":0.9520432794,
+  "Ang1(deg)_DSS":-0.096437394,
+  "V1(pu)_EST":0.9524,
+  "Ang1(deg)_EST":0.1054
+ },
+ "5":{
+  "bus_name":"bus_9",
+  "Bus Nro.":6,
+  "V1(pu)_DSS":0.9725098502,
+  "Ang1(deg)_DSS":-0.0581122674,
+  "V1(pu)_EST":0.9725,
+  "Ang1(deg)_EST":0.0997
+ },
+ "6":{
+  "bus_name":"bus_10",
+  "Bus Nro.":7,
+  "V1(pu)_DSS":0.9716422375,
+  "Ang1(deg)_DSS":-0.0596440806,
+  "V1(pu)_EST":0.9716,
+  "Ang1(deg)_EST":0.1001
+ },
+ "7":{
+  "bus_name":"bus_6",
+  "Bus Nro.":8,
+  "V1(pu)_DSS":0.9673859345,
+  "Ang1(deg)_DSS":-0.0740747356,
+  "V1(pu)_EST":0.9674,
+  "Ang1(deg)_EST":0.1016
+ },
+ "8":{
+  "bus_name":"bus_7",
+  "Bus Nro.":9,
+  "V1(pu)_DSS":0.9643468002,
+  "Ang1(deg)_DSS":-0.0836552305,
+  "V1(pu)_EST":0.9642,
+  "Ang1(deg)_EST":0.0981
+ },
+ "9":{
+  "bus_name":"bus_8",
+  "Bus Nro.":10,
+  "V1(pu)_DSS":0.9658691103,
+  "Ang1(deg)_DSS":-0.0788754237,
+  "V1(pu)_EST":0.9658,
+  "Ang1(deg)_EST":0.0967
+ },
+ "10":{
+  "bus_name":"bus_11",
+  "Bus Nro.":11,
+  "V1(pu)_DSS":0.9575210301,
+  "Ang1(deg)_DSS":-0.0679005467,
+  "V1(pu)_EST":0.9573,
+  "Ang1(deg)_EST":0.1007
+ },
+ "11":{
+  "bus_name":"bus_12",
+  "Bus Nro.":12,
+  "V1(pu)_DSS":0.9554658593,
+  "Ang1(deg)_DSS":-0.0776827553,
+  "V1(pu)_EST":0.9553,
+  "Ang1(deg)_EST":0.1002
+ },
+ "12":{
+  "bus_name":"bus_13",
+  "Bus Nro.":13,
+  "V1(pu)_DSS":0.9537515569,
+  "Ang1(deg)_DSS":-0.0858082088,
+  "V1(pu)_EST":0.9536,
+  "Ang1(deg)_EST":0.1032
+ },
+ "13":{
+  "bus_name":"bus_14",
+  "Bus Nro.":14,
+  "V1(pu)_DSS":0.9515140319,
+  "Ang1(deg)_DSS":-0.1071108076,
+  "V1(pu)_EST":0.952,
+  "Ang1(deg)_EST":0.1067
+ },
+ "14":{
+  "bus_name":"bus_15",
+  "Bus Nro.":15,
+  "V1(pu)_DSS":0.949911986,
+  "Ang1(deg)_DSS":-0.1226960965,
+  "V1(pu)_EST":0.9504,
+  "Ang1(deg)_EST":0.1118
+ }
+}

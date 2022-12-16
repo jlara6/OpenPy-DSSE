@@ -1,0 +1,15 @@
+New "Load.1" bus1=Bus_1.1 phases=1 conn=LN kV=11 kva=0 Kw=0
+New "Load.2" bus1=Bus_2.1 phases=1 conn=LN kV=11 kva=63 pf=0.7 
+New "Load.3" bus1=Bus_3.1 phases=1 conn=LN kV=11 kva=100 pf=0.7 
+New "Load.4" bus1=Bus_4.1 phases=1 conn=LN kV=11 kva=200 pf=0.7 
+New "Load.5" bus1=Bus_5.1 phases=1 conn=LN kV=11 kva=63 pf=0.7 
+New "Load.6" bus1=Bus_6.1 phases=1 conn=LN kV=11 kva=200 pf=0.7 
+New "Load.7" bus1=Bus_7.1 phases=1 conn=LN kV=11 kva=200 pf=0.7 
+New "Load.8" bus1=Bus_8.1 phases=1 conn=LN kV=11 kva=100 pf=0.7 
+New "Load.9" bus1=Bus_9.1 phases=1 conn=LN kV=11 kva=100 pf=0.7 
+New "Load.10" bus1=Bus_10.1 phases=1 conn=LN kV=11 kva=63 pf=0.7 
+New "Load.11" bus1=Bus_11.1 phases=1 conn=LN kV=11 kva=200 pf=0.7 
+New "Load.12" bus1=Bus_12.1 phases=1 conn=LN kV=11 kva=20 pf=0.7 
+New "Load.13" bus1=Bus_13.1 phases=1 conn=LN kV=11 kva=100 pf=0.7 
+New "Load.14" bus1=Bus_14.1 phases=1 conn=LN kV=11 kva=100 pf=0.7 
+New "Load.15" bus1=Bus_15.1 phases=1 conn=LN kV=11 kva=200 pf=0.7 

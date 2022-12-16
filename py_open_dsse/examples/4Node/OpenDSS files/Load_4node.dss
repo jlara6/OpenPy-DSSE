@@ -1,0 +1,4 @@
+New "Load.1" bus1=1 phases=1 conn=LN kV=6.3 kva=0 Kw=0
+New "Load.2" bus1=2 phases=1 conn=LN kV=6.3 kva=0 Kw=0
+New "Load.3" bus1=3 phases=1 conn=LN kV=6.3 kva=100 pf=0.7 
+New "Load.4" bus1=4 phases=1 conn=LN kV=6.3 kva=200 pf=0.7 

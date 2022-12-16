@@ -1,0 +1,47 @@
+! spot loads
+New Load.S701a      Bus1=701.1.2 Phases=1 Conn=Delta Model=1 kV=  4.800 kW= 140.0 kVAR=  70.0
+New Load.S701b      Bus1=701.2.3 Phases=1 Conn=Delta Model=1 kV=  4.800 kW= 140.0 kVAR=  70.0
+New Load.S701c      Bus1=701.3.1 Phases=1 Conn=Delta Model=1 kV=  4.800 kW= 350.0 kVAR= 175.0
+New Load.S712c      Bus1=712.3.1 Phases=1 Conn=Delta Model=1 kV=  4.800 kW=  85.0 kVAR=  40.0
+New Load.S713c      Bus1=713.3.1 Phases=1 Conn=Delta Model=1 kV=  4.800 kW=  85.0 kVAR=  40.0
+New Load.S714a      Bus1=714.1.2 Phases=1 Conn=Delta Model=4 kV=  4.800 kW=  17.0 kVAR=   8.0
+New Load.S714b      Bus1=714.2.3 Phases=1 Conn=Delta Model=4 kV=  4.800 kW=  21.0 kVAR=  10.0
+New Load.S718a      Bus1=718.1.2 Phases=1 Conn=Delta Model=2 kV=  4.800 kW=  85.0 kVAR=  40.0
+New Load.S720c      Bus1=720.3.1 Phases=1 Conn=Delta Model=1 kV=  4.800 kW=  85.0 kVAR=  40.0
+New Load.S722b      Bus1=722.2.3 Phases=1 Conn=Delta Model=4 kV=  4.800 kW= 140.0 kVAR=  70.0
+New Load.S722c      Bus1=722.3.1 Phases=1 Conn=Delta Model=4 kV=  4.800 kW=  21.0 kVAR=  10.0
+New Load.S724b      Bus1=724.2.3 Phases=1 Conn=Delta Model=2 kV=  4.800 kW=  42.0 kVAR=  21.0
+New Load.S725b      Bus1=725.2.3 Phases=1 Conn=Delta Model=1 kV=  4.800 kW=  42.0 kVAR=  21.0
+New Load.S727c      Bus1=727.3.1 Phases=1 Conn=Delta Model=1 kV=  4.800 kW=  42.0 kVAR=  21.0
+New Load.S728       Bus1=728   Phases=3 Conn=Delta Model=1 kV=  4.800 kW= 126.0 kVAR=  63.0
+New Load.S729a      Bus1=729.1.2 Phases=1 Conn=Delta Model=4 kV=  4.800 kW=  42.0 kVAR=  21.0
+New Load.S730c      Bus1=730.3.1 Phases=1 Conn=Delta Model=2 kV=  4.800 kW=  85.0 kVAR=  40.0
+New Load.S731b      Bus1=731.2.3 Phases=1 Conn=Delta Model=2 kV=  4.800 kW=  85.0 kVAR=  40.0
+New Load.S732c      Bus1=732.3.1 Phases=1 Conn=Delta Model=1 kV=  4.800 kW=  42.0 kVAR=  21.0
+New Load.S733a      Bus1=733.1.2 Phases=1 Conn=Delta Model=4 kV=  4.800 kW=  85.0 kVAR=  40.0
+New Load.S734c      Bus1=734.3.1 Phases=1 Conn=Delta Model=1 kV=  4.800 kW=  42.0 kVAR=  21.0
+New Load.S735c      Bus1=735.3.1 Phases=1 Conn=Delta Model=1 kV=  4.800 kW=  85.0 kVAR=  40.0
+New Load.S736b      Bus1=736.2.3 Phases=1 Conn=Delta Model=2 kV=  4.800 kW=  42.0 kVAR=  21.0
+New Load.S737a      Bus1=737.1.2 Phases=1 Conn=Delta Model=4 kV=  4.800 kW= 140.0 kVAR=  70.0
+New Load.S738a      Bus1=738.1.2 Phases=1 Conn=Delta Model=1 kV=  4.800 kW= 126.0 kVAR=  62.0
+New Load.S740c      Bus1=740.3.1 Phases=1 Conn=Delta Model=1 kV=  4.800 kW=  85.0 kVAR=  40.0
+New Load.S741c      Bus1=741.3.1 Phases=1 Conn=Delta Model=4 kV=  4.800 kW=  42.0 kVAR=  21.0
+New Load.S742a      Bus1=742.1.2 Phases=1 Conn=Delta Model=2 kV=  4.800 kW=   8.0 kVAR=   4.0
+New Load.S742b      Bus1=742.2.3 Phases=1 Conn=Delta Model=2 kV=  4.800 kW=  85.0 kVAR=  40.0
+New Load.S744a      Bus1=744.1.2 Phases=1 Conn=Delta Model=1 kV=  4.800 kW=  42.0 kVAR=  21.0
+
+!zero injection loads
+New Load.S702 Bus1=702   Phases=3 Conn=Delta Model=1 kV=4.800 kW=0 kVAR=0
+New Load.S705 Bus1=705   Phases=3 Conn=Delta Model=1 kV=4.800 kW=0 kVAR=0
+New Load.S704 Bus1=704   Phases=3 Conn=Delta Model=1 kV=4.800 kW=0 kVAR=0
+New Load.S707 Bus1=707   Phases=3 Conn=Delta Model=1 kV=4.800 kW=0 kVAR=0
+New Load.S706 Bus1=706   Phases=3 Conn=Delta Model=1 kV=4.800 kW=0 kVAR=0
+New Load.S703 Bus1=703   Phases=3 Conn=Delta Model=1 kV=4.800 kW=0 kVAR=0
+New Load.S709 Bus1=709   Phases=3 Conn=Delta Model=1 kV=4.800 kW=0 kVAR=0
+New Load.S708 Bus1=708   Phases=3 Conn=Delta Model=1 kV=4.800 kW=0 kVAR=0
+New Load.S710 Bus1=710   Phases=3 Conn=Delta Model=1 kV=4.800 kW=0 kVAR=0
+New Load.S711 Bus1=711   Phases=3 Conn=Delta Model=1 kV=4.800 kW=0 kVAR=0
+
+
+
+

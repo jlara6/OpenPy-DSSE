@@ -1,0 +1,23 @@
+Clear
+
+New object=circuit.ieee37
+~ basekv=4.8 pu=1.00 angle=30 MVAsc3=200000 MVAsc1=210000  bus1=799
+
+
+!Redirect Substation.DSS
+!Redirect Transformers.DSS
+Redirect IEEELineCodes.DSS
+Redirect Lines.DSS
+!Redirect Regulator.DSS
+Redirect Loads.DSS
+
+Set VoltageBases = "4.8,0.48"
+CalcVoltageBases
+BusCoords IEEE37_BusXY.csv
+
+!solve mode=direct
+set maxiterations=100
+solve
+
+!Redirect AddMarks.DSS
+

@@ -1,0 +1,4 @@
+New "Line.from_1_to_2" phases=1 bus1=1 bus2=2 rmatrix=[1.530] xmatrix=[1.778] 
+New "Line.from_2_to_3" phases=1 bus1=2 bus2=3 rmatrix=[1.037] xmatrix=[1.071] 
+New "Line.from_3_to_4" phases=1 bus1=3 bus2=4 rmatrix=[1.224] xmatrix=[1.428] 
+

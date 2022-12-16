@@ -1,0 +1,2 @@
+New "Capacitor.cap1" bus1=675 phases=1 kv=2.4018 kvar=[ 200]
+New "Capacitor.cap2" bus1=611 phases=1 kv=2.4 kvar=[ 33.333]

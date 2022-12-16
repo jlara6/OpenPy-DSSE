@@ -1,0 +1,4 @@
+! Load Transformer
+New Transformer.XFM1  Phases=3 Windings=2 Xhl=1.81
+~ wdg=1 bus=709       conn=Delta kv=4.80  kva=500    %r=0.045
+~ wdg=2 bus=775       conn=Delta kv=0.48  kva=500    %r=0.045
