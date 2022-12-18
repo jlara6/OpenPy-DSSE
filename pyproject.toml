@@ -1,21 +1,18 @@
 [tool.poetry]
 name = "openpy-dsse"
 version = "0.1.1"
-license = "LICENSE"
 description = "Open source library for state estimation of a distribution network modeled in OpenDSS"
-authors = ["Jorge A. Lara S. <jlara@iee.unsj.edu.ar>"]
-maintainers = ["Jorge A. Lara S. <jlara@iee.unsj.edu.ar>"]
+authors = ["Jorge Lara <jlara@iee.unsj.edu.ar>"]
+license = "LICENSE"
 readme = "README.md"
-repository = "https://github.com/jlara6/py_open_dsse"
-keywords = ["OpenDSS", "DSSE", "state estimation", "smart grid"]
+keywords = ["OpenDSS", "DSSE", "state estimation", "smart grid", "OpenPy-DSSE", "OpenPy_DSSE"]
 
-packages = [{include = "py_open_dsse"}]
-exclude = ["py_open_dsse/examples/**/*.xlsx"]
-
+packages = [{include = "openpy_dsse"}]
+exclude = ["openpy_dsse/examples/**/*.xlsx"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-colorama = "0.4.5"
+colorama = "0.4.6"
 contourpy = "1.0.5"
 cycler = "0.11.0"
 et-xmlfile = "1.1.0"
@@ -23,7 +20,7 @@ fonttools = "4.38.0"
 kiwisolver = "1.4.4"
 matplotlib = "3.6.0"
 mpmath = "1.2.1"
-numpy = "1.23.4"
+numpy = "1.23.5"
 openpyxl = "3.0.10"
 packaging = "21.3"
 pandas = "1.2.3"
@@ -31,7 +28,7 @@ pillow = "9.2.0"
 py-dss-interface = "1.0.2"
 pyparsing = "3.0.9"
 python-dateutil = "2.8.2"
-pytz = "2022.5"
+pytz = "2022.6"
 scipy = "1.9.3"
 seaborn = "0.12.1"
 six = "1.16.0"

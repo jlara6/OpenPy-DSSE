@@ -1,4 +1,4 @@
-# OpenPy-DSSE
+# openpy_dsse
 
 It is an open-source library developed in Python for estimating distribution networks (DSSE). It communicates with the free software for the simulation of electrical networks (OpenDSS) and collects the results of power flow and distribution system parameters and executes the DSSE, obtaining an estimated state according to the type and location of measurements.
 
@@ -198,7 +198,6 @@ In the path ``:{Python_library_path}/openpy_dsse/examples``, the ``.DSS`` and ``
 |  37NodeIEEE  |      Pos     |     2    |
 
 The function ``test_circuit(Typ_cir, case)``, returns a dictionary with the keys ``'DSS_file'``, ``'MEAS_path'``, ``'save_path'``, ``'name_project'`` and ``'Typ_cir'`` which correspond to the ``.DSS`` file path, measurement file path, path where results will be saved and circuit type respectively.
-
 ```Python
 import openpy_dsse
 

@@ -3,7 +3,7 @@
 Convert a requirements.txt file to a Poetry project.
 Just place in the root of your working directory and run!
 """
-sourceFile = "./requirements.txt"
+sourceFile = "./requeriments.txt"
 
 import re
 import os

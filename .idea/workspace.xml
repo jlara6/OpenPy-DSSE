@@ -1,24 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f5480dc-138e-4a38-9341-a0d317c98895" name="Changes" comment="" />
+    <list default="true" id="6f5480dc-138e-4a38-9341-a0d317c98895" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/toolchains.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/OpenPy-DSSE.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/OpenPy-DSSE.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/activate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/activate.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/activate.fish" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/activate.nu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/activate.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/activate_this.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/deactivate.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/deactivate.nu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/doesitcache.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/dul-receive-pack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/dul-upload-pack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/dulwich.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/f2py.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/fonttools.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/isympy.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/jsonschema.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/keyring.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/normalizer.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/pip-3.10.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/pip.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/pip3.10.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/pip3.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/pkginfo.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/poetry.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/pydoc.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/pyftmerge.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/pyftsubset.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/python.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/pythonw.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/ttx.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/virtualenv.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/wheel-3.10.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/wheel.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/wheel3.10.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/wheel3.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/openpy_dsse/examples/13NodeIEEE/Results/Results_DSSE_13NodeIEEE.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/openpy_dsse/examples/13NodeIEEE/Results/Results_DSSE_13NodeIEEE.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openpy_dsse/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/poetry-convert.py" beforeDir="false" afterPath="$PROJECT_DIR$/poetry-convert.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyvenv.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/man/man1/isympy.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/man/man1/ttx.1" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Setup Script" />
+        <option value="Blank Requirements File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/main.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/requirements.txt" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/main.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/poetry-convert.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2IxhUbFpScZPKj21zYN5s8AW75J" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -27,7 +92,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PythonContentEntriesConfigurable"
   }
 }]]></component>
   <component name="RunManager">
