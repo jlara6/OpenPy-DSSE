@@ -2,60 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f5480dc-138e-4a38-9341-a0d317c98895" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/toolchains.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openpy_dsse/perf_metrics_calc.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/OpenPy-DSSE.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/OpenPy-DSSE.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/activate" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/activate.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/activate.fish" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/activate.nu" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/activate.ps1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/activate_this.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/deactivate.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/deactivate.nu" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/doesitcache.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/dul-receive-pack" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/dul-upload-pack" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/dulwich.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/f2py.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/fonttools.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/isympy.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/jsonschema.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/keyring.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/normalizer.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/pip-3.10.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/pip.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/pip3.10.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/pip3.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/pkginfo.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/poetry.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/pydoc.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/pyftmerge.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/pyftsubset.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/python.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/pythonw.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/ttx.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/virtualenv.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/wheel-3.10.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/wheel.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/wheel3.10.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/wheel3.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openpy_dsse/Algorithm_classification.py" beforeDir="false" afterPath="$PROJECT_DIR$/openpy_dsse/Algorithm_classification.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openpy_dsse/DSSE_algorithms/WLS_alg_1ph.py" beforeDir="false" afterPath="$PROJECT_DIR$/openpy_dsse/DSSE_algorithms/WLS_alg_1ph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openpy_dsse/Elec_param_calc_DSS_EST.py" beforeDir="false" afterPath="$PROJECT_DIR$/openpy_dsse/Elec_param_calc_DSS_EST.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openpy_dsse/Plot_results_DSS_EST.py" beforeDir="false" afterPath="$PROJECT_DIR$/openpy_dsse/Plot_results_DSS_EST.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openpy_dsse/YBus_Matrix_Pos_Seq.py" beforeDir="false" afterPath="$PROJECT_DIR$/openpy_dsse/YBus_Matrix_Pos_Seq.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openpy_dsse/error_handling_logging.py" beforeDir="false" afterPath="$PROJECT_DIR$/openpy_dsse/error_handling_logging.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openpy_dsse/examples/13NodeIEEE/MEAS_files/MEAS_error_DSS.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/openpy_dsse/examples/13NodeIEEE/MEAS_files/MEAS_error_DSS.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openpy_dsse/examples/13NodeIEEE/MEAS_files/Pos_MEAS_error_DSS.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/openpy_dsse/examples/13NodeIEEE/MEAS_files/Pos_MEAS_error_DSS.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openpy_dsse/examples/13NodeIEEE/OpenDSS files/DSSViewIntercom.Txt" beforeDir="false" afterPath="$PROJECT_DIR$/openpy_dsse/examples/13NodeIEEE/OpenDSS files/DSSViewIntercom.Txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/openpy_dsse/examples/13NodeIEEE/Results/Results_DSSE_13NodeIEEE.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/openpy_dsse/examples/13NodeIEEE/Results/Results_DSSE_13NodeIEEE.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openpy_dsse/requirements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poetry-convert.py" beforeDir="false" afterPath="$PROJECT_DIR$/poetry-convert.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyvenv.cfg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/share/man/man1/isympy.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/share/man/man1/ttx.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/openpy_dsse/examples/15NodeIEEE/MEAS_files/MEAS_Bus_i.json" beforeDir="false" afterPath="$PROJECT_DIR$/openpy_dsse/examples/15NodeIEEE/MEAS_files/MEAS_Bus_i.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openpy_dsse/examples/15NodeIEEE/MEAS_files/MEAS_Bus_i_PMU.json" beforeDir="false" afterPath="$PROJECT_DIR$/openpy_dsse/examples/15NodeIEEE/MEAS_files/MEAS_Bus_i_PMU.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openpy_dsse/examples/15NodeIEEE/MEAS_files/MEAS_Elem_ft.json" beforeDir="false" afterPath="$PROJECT_DIR$/openpy_dsse/examples/15NodeIEEE/MEAS_files/MEAS_Elem_ft.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openpy_dsse/examples/15NodeIEEE/MEAS_files/MEAS_Elem_ft_PMU.json" beforeDir="false" afterPath="$PROJECT_DIR$/openpy_dsse/examples/15NodeIEEE/MEAS_files/MEAS_Elem_ft_PMU.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openpy_dsse/examples/15NodeIEEE/MEAS_files/MEAS_error_DSS.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/openpy_dsse/examples/15NodeIEEE/MEAS_files/MEAS_error_DSS.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openpy_dsse/examples/15NodeIEEE/Results/Results_DSSE_15NodeIEEE.json" beforeDir="false" afterPath="$PROJECT_DIR$/openpy_dsse/examples/15NodeIEEE/Results/Results_DSSE_15NodeIEEE.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openpy_dsse/examples/15NodeIEEE/Results/Results_DSSE_15NodeIEEE.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/openpy_dsse/examples/15NodeIEEE/Results/Results_DSSE_15NodeIEEE.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openpy_dsse/examples/37NodeIEEE/MEAS_files/MEAS_Bus_i.json" beforeDir="false" afterPath="$PROJECT_DIR$/openpy_dsse/examples/37NodeIEEE/MEAS_files/MEAS_Bus_i.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openpy_dsse/examples/37NodeIEEE/MEAS_files/MEAS_Bus_i_PMU.json" beforeDir="false" afterPath="$PROJECT_DIR$/openpy_dsse/examples/37NodeIEEE/MEAS_files/MEAS_Bus_i_PMU.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openpy_dsse/examples/37NodeIEEE/MEAS_files/MEAS_Elem_ft.json" beforeDir="false" afterPath="$PROJECT_DIR$/openpy_dsse/examples/37NodeIEEE/MEAS_files/MEAS_Elem_ft.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openpy_dsse/examples/37NodeIEEE/MEAS_files/Pos_MEAS_error_DSS.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/openpy_dsse/examples/37NodeIEEE/MEAS_files/Pos_MEAS_error_DSS.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openpy_dsse/examples/37NodeIEEE/Results/Results_DSSE_37nodeIEEE.json" beforeDir="false" afterPath="$PROJECT_DIR$/openpy_dsse/examples/37NodeIEEE/Results/Results_DSSE_37nodeIEEE.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openpy_dsse/examples/37NodeIEEE/Results/Results_DSSE_37nodeIEEE.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/openpy_dsse/examples/37NodeIEEE/Results/Results_DSSE_37nodeIEEE.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openpy_dsse/examples/4Node/Results/Results_DSSE_4Node.json" beforeDir="false" afterPath="$PROJECT_DIR$/openpy_dsse/examples/4Node/Results/Results_DSSE_4Node.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openpy_dsse/examples/4Node/Results/Results_DSSE_4Node.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/openpy_dsse/examples/4Node/Results/Results_DSSE_4Node.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openpy_dsse/state_estimation.py" beforeDir="false" afterPath="$PROJECT_DIR$/openpy_dsse/state_estimation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +43,7 @@
       <list>
         <option value="Setup Script" />
         <option value="Blank Requirements File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -93,7 +70,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PythonContentEntriesConfigurable"
+    "last_opened_file_path": "G:/Mi unidad/GitHub/py-comp-dsse-alg",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
   <component name="RunManager">
@@ -140,10 +118,33 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/openpy_dsse/Plot_results_DSS_EST.py</url>
+          <line>122</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

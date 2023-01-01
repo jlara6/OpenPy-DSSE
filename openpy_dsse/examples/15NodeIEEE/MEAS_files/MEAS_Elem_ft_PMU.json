@@ -43,12 +43,12 @@
   "ph_3":0,
   "STS_Ift":1,
   "Rii_Ift":0.0000444889,
-  "I1mft(pu)":0.0592,
-  "I2mft(pu)":0.00008,
-  "I3mft(pu)":0.00008,
-  "Ang1m(deg)":-45.64543,
-  "Ang2m(deg)":0.00008,
-  "Ang3m(deg)":0.00008
+  "I1mft(pu)":0.05904,
+  "I2mft(pu)":-0.00007,
+  "I3mft(pu)":-0.00007,
+  "Ang1m(deg)":-45.63928,
+  "Ang2m(deg)":-0.00007,
+  "Ang3m(deg)":-0.00007
  },
  "3":{
   "element_name":"Line.from_4_to_5",
@@ -94,12 +94,12 @@
   "ph_3":0,
   "STS_Ift":1,
   "Rii_Ift":0.0000110889,
-  "I1mft(pu)":0.0065,
-  "I2mft(pu)":0.00003,
-  "I3mft(pu)":0.00003,
-  "Ang1m(deg)":-45.55481,
-  "Ang2m(deg)":0.00003,
-  "Ang3m(deg)":0.00003
+  "I1mft(pu)":0.00651,
+  "I2mft(pu)":0.00004,
+  "I3mft(pu)":0.00004,
+  "Ang1m(deg)":-45.53948,
+  "Ang2m(deg)":0.00004,
+  "Ang3m(deg)":0.00004
  },
  "6":{
   "element_name":"Line.from_2_to_6",

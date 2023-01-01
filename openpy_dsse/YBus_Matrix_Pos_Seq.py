@@ -19,7 +19,10 @@ class YBus_Matrix_SeqPos_OpenDSS:
     def __init__(self, DF_allbusnames_aux: pd.DataFrame):
         self.DF_allbusnames_aux = DF_allbusnames_aux
 
-    def build_YBus_Matrix_Pos_Seq(self, element: List[str]) -> np.array:
+    def build_YBus_Matrix_Pos_Seq(
+            self,
+            element: List[str]
+    ) -> np.array:
 
         nbus = dss.circuit_num_buses()
         Y_Bus = np.zeros((nbus, nbus), dtype=complex)

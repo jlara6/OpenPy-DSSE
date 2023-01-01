@@ -1,0 +1,29 @@
+{
+ "0":{
+  "element_name":"Line.from_1_to_2",
+  "from_bus":"1",
+  "to_bus":"2",
+  "I1(pu)_DSS":0.0310508699,
+  "Ang1(deg)_DSS":-45.6535187611,
+  "I1(pu)_EST":0.0311947628,
+  "Ang1(deg)_EST":-45.4234870477
+ },
+ "1":{
+  "element_name":"Line.from_2_to_3",
+  "from_bus":"2",
+  "to_bus":"3",
+  "I1(pu)_DSS":0.0310545382,
+  "Ang1(deg)_DSS":-45.6601422052,
+  "I1(pu)_EST":0.0293221169,
+  "Ang1(deg)_EST":-50.7589609235
+ },
+ "2":{
+  "element_name":"Line.from_3_to_4",
+  "from_bus":"3",
+  "to_bus":"4",
+  "I1(pu)_DSS":0.0207730945,
+  "Ang1(deg)_DSS":-45.6761026013,
+  "I1(pu)_EST":0.0206382064,
+  "Ang1(deg)_EST":-61.7370715184
+ }
+}

@@ -20,15 +20,13 @@ from .MEAS_from_OpenDSS import Normalization_MEAS
 from .YBus_Matrix_Pos_Seq import *
 from .DSSE_algorithms.WLS_alg_1ph import WLS_1ph_state_estimator
 from .DSSE_algorithms.WLS_alg_Pos_Seq import WLS_Pos_state_estimator
-from .error_handling_logging import update_logg_file, to_Excel_MEAS
+from .error_handling_logging import update_logg_file, to_Excel_MEAS, elem_YBus, orient, indent
 
 pd.options.mode.chained_assignment = None
 
 #dss = py_dss_interface.DSSDLL()
 data_DSS = OpenDSS_data_collection()
 log_py = logging.getLogger(__name__)
-orient, indent = "index", 1
-
 
 def DSS_EST_save_view(
         results_DSSE: dict, MEAS_dict: dict(),
@@ -137,9 +135,7 @@ class DSSE_algorithms(BaseAlgorithm, File_options, Algorithm_options):
         DSS_EST_save_view(
             state_estimation, MEAS_study,
             self.path_save, self.name_project, self.DSS_coll, self.View_res, self.summary)
-
         return state_estimation
-
 
 class diff_algorithms(BaseAlgorithm, File_options):
 
@@ -180,7 +176,6 @@ class diff_algorithms(BaseAlgorithm, File_options):
             ['num_nodes', 'ph_2', 'ph_3', 'V2(pu)', 'V3(pu)', 'Ang2(rad)', 'Ang3(rad)'], axis=1)
 
         'Get circuit YBus from OpenDSS'
-        elem_YBus = ['vsources', 'lines', 'transformers']
         #initialize class
         YBus_1ph = YBus_Matrix_SeqPos_OpenDSS(data_DSS.allbusnames_aux())
         Ybus_PU = YBus_1ph.YBus_Matrix_pu(
@@ -260,7 +255,6 @@ class diff_algorithms(BaseAlgorithm, File_options):
         df_Volt_Ang_init = df_Volt_Ang_init.drop(
             ['num_nodes', 'ph_2', 'ph_3', 'V2(pu)', 'V3(pu)', 'Ang2(rad)', 'Ang3(rad)'], axis=1)
         'Get circuit YBus from OpenDSS'
-        elem_YBus = ['vsources', 'lines', 'transformers', 'capacitors']
         YBus_SeqPos = YBus_Matrix_SeqPos_OpenDSS(data_DSS.allbusnames_aux())  # start the class
         Ybus_PU = YBus_SeqPos.YBus_Matrix_pu(
             SbasMVA_3ph=self.Sbas3ph_MVA,

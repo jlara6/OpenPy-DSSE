@@ -10,6 +10,9 @@ from .Algorithm_classification import DSSE_algorithms
 from .Sample_test_systems_DSS import Sample_tests
 from .MEAS_from_OpenDSS import MEAS_files
 from .error_handling_logging import *
+from .Elec_param_calc_DSS_EST import estimated_electrical_variables
+from .perf_metrics_calc import performance_metrics
+from .Plot_results_DSS_EST import _Plot_results_DSS_EST
 import pandas as pd
 import logging
 
@@ -146,21 +149,25 @@ class init_DSSE(BaseAlgorithm):
 
         return V_Ang_EST
 
-    def calc_from_est(
+    def param_elect_from_EST(
             self,
             DSS_path: str = None,
-            EST_pd: pd.DataFrame = None,
+            EST_df: pd.DataFrame = None,
             EST_path: str = None,
             I_Ang_EST: bool = False,
             PQi_EST: bool = False,
             PQf_EST: bool = False,
-            no_PU: bool = False
+            no_PU: bool = False,
+            path_save: str = None,
+            View_res: bool = True,
+            DSS_col: bool = True,
+            name_project: str = 'Default'
     ):
         """
         From the estimated status result, other electrical parameters are calculated and can be compared with the OpenDSS results.
 
         :param EST_path:
-        :param EST_pd:
+        :param EST_df:
         :param I_Ang_EST: With estimated voltage and angle, calculate the current between two nodes. Default is 'False'
         :param PQi_EST: With estimated voltage and angle, calculate the node injection power. Default is 'False'
         :param PQf_EST: With estimated voltage and angle, calculate the power flow between two nodes. Default is 'False'
@@ -168,16 +175,33 @@ class init_DSSE(BaseAlgorithm):
         :param DSS_path:
         :return:
         """
-        print('In development')
+        calc_from_est_EH(DSS_path, EST_df, EST_path, I_Ang_EST, PQi_EST, PQf_EST, no_PU)
+        calc_parameters = estimated_electrical_variables(
+            I_Ang_EST=I_Ang_EST,
+            PQi_EST=PQi_EST,
+            PQf_EST=PQf_EST
+        )
+        if I_Ang_EST:
+            df_Imag_Ang_EST = calc_parameters.Imang_Angle_EST_1ph(
+                df_Results_DSSE=EST_df,
+                SbasMVA_3ph=self.Sbas3ph_MVA,
+                path_save=path_save,
+                View_res=View_res,
+                DSS_col=DSS_col,
+                name_project=name_project
+            )
+            return df_Imag_Ang_EST
 
-    def calc_performance(
+    def performance_metrics(
             self,
-            DSS_path: str = None,
-            EST_pd: pd.DataFrame = None,
-            EST_path: str = None,
-            MAPE: bool = False,
-            MAE: bool = False,
-            RMSE: bool = False
+            V_Bus: dict = None,
+            I_Elem: dict = None,
+            MAPE: bool = True,
+            MAE: bool = True,
+            RMSE: bool = True,
+            path_save: str = None,
+            View_res: bool = False,
+            name_project: str = 'Default'
     ):
         """
         Function to calculate the performance metrics as Mean Absolute Percentage Error (MAPE), Mean Absolute Error (MAE), and Root Mean Square Error (RMSE).
@@ -188,17 +212,37 @@ class init_DSSE(BaseAlgorithm):
         :param DSS_path: OpenDSS circuit file path
         :return:
         """
-        print('In development')
+        if V_Bus is not None:
+            V_Bus_DSS_EST = pd.merge(
+                V_Bus['df_DSS'], V_Bus['df_EST'],
+                on=('bus_name', 'Bus Nro.')
+            )
+        if I_Elem is not None:
+            I_Elem_DSS_EST = pd.merge(
+                I_Elem['df_DSS'], I_Elem['df_EST'],
+                on=('element_name', 'from_bus', 'to_bus')
+            )
+        perf = performance_metrics(
+            V_Bus=V_Bus_DSS_EST,
+            I_Elem=I_Elem_DSS_EST,
+        )
+        perf_dict = dict()
+        if MAE:
+            perf_dict['MAE'] = perf.Mean_Absolute_Error()
+        if MAPE:
+            perf_dict['MAPE'] = perf.Mean_Absolute_Percentage_Error()
+        if RMSE:
+            perf_dict['RMSE'] = perf.Root_Mean_Square_Error()
 
-    def plot_results(
+        return perf._dict_merge(MAE, MAPE, RMSE, perf_dict, View_res, path_save, name_project)
+    def Plot_results(
             self,
-            I_Ang_EST: bool = False,
-            PQi_EST: bool = False,
-            PQf_EST: bool = False,
+            V_Bus: dict = None,
+            I_Elem: dict = None,
+            View: bool = True,
             no_PU: bool = False,
-            MAPE: bool = False,
-            MAE: bool = False,
-            RMSE: bool = False
+            path_save: str = None,
+            name_project: str = 'Default'
     ):
         """
 
@@ -211,5 +255,32 @@ class init_DSSE(BaseAlgorithm):
         :param RMSE:
         :return:
         """
-        print('In development')
+        res_plt = _Plot_results_DSS_EST(
+            name_project,
+            path_save,
+            no_PU,
+            View
+        )
+        if V_Bus is not None:
+            V_Bus_DSS_EST = pd.merge(
+                V_Bus['df_DSS'],
+                V_Bus['df_EST'],
+                on=('bus_name', 'Bus Nro.')
+            )
+            res_plt._Vi_Angi_1ph_Pos(
+                V_Bus_DSS_EST
+            )
+
+        if I_Elem is not None:
+            I_Elem_DSS_EST = pd.merge(
+                I_Elem['df_DSS'],
+                I_Elem['df_EST'],
+                on=('element_name', 'from_bus', 'to_bus')
+            )
+            res_plt._Iij_Angij_1ph_Pos(
+                I_Elem_DSS_EST
+            )
+
+
+
 

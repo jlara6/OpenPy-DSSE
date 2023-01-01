@@ -72,8 +72,15 @@ def vector_Ri_pmu_seq(nvi_pmu, nii_pmu, Ri_mang_pmu, Ri_ang_pmu) -> np.array:
 
 class WLS_1ph_state_estimator:
 
-    def __init__(self, tolerance: int, num_iter_max: int, DF_MEAS_SCADA: pd.DataFrame, DF_MEAS_PMU: pd.DataFrame,
-                 DF_Volt_Ang_initial: pd.DataFrame, YBus_Matrix: np.array):
+    def __init__(
+            self,
+            tolerance: int,
+            num_iter_max: int,
+            DF_MEAS_SCADA: pd.DataFrame,
+            DF_MEAS_PMU: pd.DataFrame,
+            DF_Volt_Ang_initial: pd.DataFrame,
+            YBus_Matrix: np.array
+    ):
         '''
         :param tolerance:
         :param num_iter_max:

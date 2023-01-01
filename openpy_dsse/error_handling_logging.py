@@ -16,7 +16,7 @@ logger_aux = logging.getLogger(__name__)
 orient, indent = "index", 1
 to_Excel_MEAS = False
 Logg_option = False
-
+elem_YBus = ['lines', 'transformers', 'capacitors']
 
 def update_logg_file(msg: str, Typ: int = 0, logger=logger_aux, Logg: bool = Logg_option, Print: bool = True):
     """
@@ -121,7 +121,16 @@ def empty_MEAS_files_EH(DSS_path, path_save, log_py):
 def estimate_EH(DSS_path, MEAS_path, path_save, Typ_cir, MEAS_SeqPos_path, log_py):
     pass
 
-
+def calc_from_est_EH(
+        DSS_path: str = None,
+        EST_pd: pd.DataFrame = None,
+        EST_path: str = None,
+        I_Ang_EST: bool = False,
+        PQi_EST: bool = False,
+        PQf_EST: bool = False,
+        no_PU: bool = False
+):
+    pass
 def _excel_json(excel_name, save_path, option):
     df_Bus_i = pd.read_excel(f'{save_path}\{excel_name}.xlsx', sheet_name='Bus_i')
     df_Elem_ft = pd.read_excel(f'{save_path}\{excel_name}.xlsx', sheet_name='Elem_ft')

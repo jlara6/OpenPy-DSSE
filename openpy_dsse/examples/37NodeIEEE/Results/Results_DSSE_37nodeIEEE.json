@@ -2,289 +2,289 @@
  "0":{
   "bus_name":"799",
   "Bus Nro.":1,
-  "V1(pu)_DSS":0.9999978411,
-  "Ang1(deg)_DSS":29.9993976723,
-  "V1(pu)_EST":1.0009,
+  "V1(pu)_DSS":0.9999978463,
+  "Ang1(deg)_DSS":29.9993976002,
+  "V1(pu)_EST":1.0004,
   "Ang1(deg)_EST":30.0
  },
  "1":{
   "bus_name":"701",
   "Bus Nro.":2,
-  "V1(pu)_DSS":0.9871426607,
-  "Ang1(deg)_DSS":29.7348202449,
-  "V1(pu)_EST":0.9881,
-  "Ang1(deg)_EST":29.9997
+  "V1(pu)_DSS":0.9871461083,
+  "Ang1(deg)_DSS":29.7346303293,
+  "V1(pu)_EST":0.9875,
+  "Ang1(deg)_EST":30.0002
  },
  "2":{
   "bus_name":"702",
   "Bus Nro.":3,
-  "V1(pu)_DSS":0.9802379307,
-  "Ang1(deg)_DSS":29.5852107751,
-  "V1(pu)_EST":0.982,
-  "Ang1(deg)_EST":30.0069
+  "V1(pu)_DSS":0.9802435176,
+  "Ang1(deg)_DSS":29.5849034281,
+  "V1(pu)_EST":0.9813,
+  "Ang1(deg)_EST":30.0077
  },
  "3":{
   "bus_name":"705",
   "Bus Nro.":4,
-  "V1(pu)_DSS":0.9791687263,
-  "Ang1(deg)_DSS":29.5933201684,
-  "V1(pu)_EST":0.9806,
-  "Ang1(deg)_EST":30.0114
+  "V1(pu)_DSS":0.9791743678,
+  "Ang1(deg)_DSS":29.5930028281,
+  "V1(pu)_EST":0.98,
+  "Ang1(deg)_EST":30.0173
  },
  "4":{
   "bus_name":"713",
   "Bus Nro.":5,
-  "V1(pu)_DSS":0.9785743035,
-  "Ang1(deg)_DSS":29.5780115065,
-  "V1(pu)_EST":0.9803,
-  "Ang1(deg)_EST":30.0002
+  "V1(pu)_DSS":0.9785802031,
+  "Ang1(deg)_DSS":29.577672449,
+  "V1(pu)_EST":0.9795,
+  "Ang1(deg)_EST":30.0005
  },
  "5":{
   "bus_name":"703",
   "Bus Nro.":6,
-  "V1(pu)_DSS":0.9744329014,
-  "Ang1(deg)_DSS":29.4589464328,
-  "V1(pu)_EST":0.9763,
-  "Ang1(deg)_EST":30.0119
+  "V1(pu)_DSS":0.9744400821,
+  "Ang1(deg)_DSS":29.4585520586,
+  "V1(pu)_EST":0.9756,
+  "Ang1(deg)_EST":30.0172
  },
  "6":{
   "bus_name":"727",
   "Bus Nro.":7,
-  "V1(pu)_DSS":0.9734960753,
-  "Ang1(deg)_DSS":29.4672816735,
-  "V1(pu)_EST":0.9752,
-  "Ang1(deg)_EST":29.9983
+  "V1(pu)_DSS":0.9735033024,
+  "Ang1(deg)_DSS":29.466879772,
+  "V1(pu)_EST":0.9728,
+  "Ang1(deg)_EST":29.986
  },
  "7":{
   "bus_name":"730",
   "Bus Nro.":8,
-  "V1(pu)_DSS":0.9699759611,
-  "Ang1(deg)_DSS":29.4397850748,
-  "V1(pu)_EST":0.9689,
-  "Ang1(deg)_EST":29.995
+  "V1(pu)_DSS":0.9699838928,
+  "Ang1(deg)_DSS":29.4393149069,
+  "V1(pu)_EST":0.9693,
+  "Ang1(deg)_EST":29.9969
  },
  "8":{
   "bus_name":"704",
   "Bus Nro.":9,
-  "V1(pu)_DSS":0.976556679,
-  "Ang1(deg)_DSS":29.5693753371,
-  "V1(pu)_EST":0.9783,
-  "Ang1(deg)_EST":30.0008
+  "V1(pu)_DSS":0.9765629813,
+  "Ang1(deg)_DSS":29.5689951014,
+  "V1(pu)_EST":0.9775,
+  "Ang1(deg)_EST":30.0007
  },
  "9":{
   "bus_name":"714",
   "Bus Nro.":10,
-  "V1(pu)_DSS":0.9764114287,
-  "Ang1(deg)_DSS":29.5704533798,
-  "V1(pu)_EST":0.9781,
-  "Ang1(deg)_EST":30.0
+  "V1(pu)_DSS":0.9764177384,
+  "Ang1(deg)_DSS":29.570071682,
+  "V1(pu)_EST":0.9773,
+  "Ang1(deg)_EST":30.0001
  },
  "10":{
   "bus_name":"720",
   "Bus Nro.":11,
-  "V1(pu)_DSS":0.9742768096,
-  "Ang1(deg)_DSS":29.5600447146,
-  "V1(pu)_EST":0.9761,
+  "V1(pu)_DSS":0.9742835493,
+  "Ang1(deg)_DSS":29.5596200457,
+  "V1(pu)_EST":0.9753,
   "Ang1(deg)_EST":30.0043
  },
  "11":{
   "bus_name":"742",
   "Bus Nro.":12,
-  "V1(pu)_DSS":0.9787307589,
-  "Ang1(deg)_DSS":29.5966847236,
-  "V1(pu)_EST":0.9787,
-  "Ang1(deg)_EST":29.972
+  "V1(pu)_DSS":0.9787364071,
+  "Ang1(deg)_DSS":29.5963657063,
+  "V1(pu)_EST":0.9773,
+  "Ang1(deg)_EST":29.958
  },
  "12":{
   "bus_name":"712",
   "Bus Nro.":13,
-  "V1(pu)_DSS":0.9788555836,
-  "Ang1(deg)_DSS":29.595688463,
-  "V1(pu)_EST":0.9791,
-  "Ang1(deg)_EST":29.9781
+  "V1(pu)_DSS":0.9788612321,
+  "Ang1(deg)_DSS":29.5953701519,
+  "V1(pu)_EST":0.9778,
+  "Ang1(deg)_EST":29.9668
  },
  "13":{
   "bus_name":"706",
   "Bus Nro.":14,
-  "V1(pu)_DSS":0.9740532994,
-  "Ang1(deg)_DSS":29.5592916367,
-  "V1(pu)_EST":0.9757,
-  "Ang1(deg)_EST":30.0029
+  "V1(pu)_DSS":0.9740601048,
+  "Ang1(deg)_DSS":29.5588603623,
+  "V1(pu)_EST":0.975,
+  "Ang1(deg)_EST":30.0026
  },
  "14":{
   "bus_name":"725",
   "Bus Nro.":15,
-  "V1(pu)_DSS":0.9738703868,
-  "Ang1(deg)_DSS":29.5609401474,
-  "V1(pu)_EST":0.975,
-  "Ang1(deg)_EST":29.992
+  "V1(pu)_DSS":0.9738772005,
+  "Ang1(deg)_DSS":29.5605075656,
+  "V1(pu)_EST":0.9743,
+  "Ang1(deg)_EST":29.9926
  },
  "15":{
   "bus_name":"707",
   "Bus Nro.":16,
-  "V1(pu)_DSS":0.9714760605,
-  "Ang1(deg)_DSS":29.5832912094,
-  "V1(pu)_EST":0.9719,
-  "Ang1(deg)_EST":30.0032
+  "V1(pu)_DSS":0.9714830144,
+  "Ang1(deg)_DSS":29.5828265342,
+  "V1(pu)_EST":0.9712,
+  "Ang1(deg)_EST":30.003
  },
  "16":{
   "bus_name":"724",
   "Bus Nro.":17,
-  "V1(pu)_DSS":0.9710067186,
-  "Ang1(deg)_DSS":29.5875031407,
-  "V1(pu)_EST":0.9703,
-  "Ang1(deg)_EST":29.9824
+  "V1(pu)_DSS":0.9710137207,
+  "Ang1(deg)_DSS":29.5870290061,
+  "V1(pu)_EST":0.9696,
+  "Ang1(deg)_EST":29.984
  },
  "17":{
   "bus_name":"722",
   "Bus Nro.":18,
-  "V1(pu)_DSS":0.9711847672,
-  "Ang1(deg)_DSS":29.5856858071,
-  "V1(pu)_EST":0.9713,
-  "Ang1(deg)_EST":29.9952
+  "V1(pu)_DSS":0.9711917222,
+  "Ang1(deg)_DSS":29.5852209302,
+  "V1(pu)_EST":0.9705,
+  "Ang1(deg)_EST":29.9953
  },
  "18":{
   "bus_name":"708",
   "Bus Nro.":19,
-  "V1(pu)_DSS":0.9667037333,
-  "Ang1(deg)_DSS":29.4258469204,
-  "V1(pu)_EST":0.9653,
-  "Ang1(deg)_EST":30.0012
+  "V1(pu)_DSS":0.9667122235,
+  "Ang1(deg)_DSS":29.4253207257,
+  "V1(pu)_EST":0.9659,
+  "Ang1(deg)_EST":30.0008
  },
  "19":{
   "bus_name":"733",
   "Bus Nro.":20,
-  "V1(pu)_DSS":0.9648965456,
-  "Ang1(deg)_DSS":29.4180498285,
-  "V1(pu)_EST":0.9635,
-  "Ang1(deg)_EST":29.9997
+  "V1(pu)_DSS":0.9649053207,
+  "Ang1(deg)_DSS":29.4174950943,
+  "V1(pu)_EST":0.9641,
+  "Ang1(deg)_EST":29.9995
  },
  "20":{
   "bus_name":"732",
   "Bus Nro.":21,
-  "V1(pu)_DSS":0.9664931078,
-  "Ang1(deg)_DSS":29.4277587283,
-  "V1(pu)_EST":0.9648,
-  "Ang1(deg)_EST":29.9961
+  "V1(pu)_DSS":0.966501609,
+  "Ang1(deg)_DSS":29.4272308224,
+  "V1(pu)_EST":0.9655,
+  "Ang1(deg)_EST":29.9972
  },
  "21":{
   "bus_name":"709",
   "Bus Nro.":22,
-  "V1(pu)_DSS":0.968631036,
-  "Ang1(deg)_DSS":29.4340225184,
-  "V1(pu)_EST":0.9672,
-  "Ang1(deg)_EST":30.0014
+  "V1(pu)_DSS":0.9686392032,
+  "Ang1(deg)_DSS":29.4335286235,
+  "V1(pu)_EST":0.9678,
+  "Ang1(deg)_EST":30.0002
  },
  "22":{
   "bus_name":"731",
   "Bus Nro.":23,
-  "V1(pu)_DSS":0.9682096474,
-  "Ang1(deg)_DSS":29.4320439934,
-  "V1(pu)_EST":0.965,
-  "Ang1(deg)_EST":29.9826
+  "V1(pu)_DSS":0.9682178474,
+  "Ang1(deg)_DSS":29.4315463213,
+  "V1(pu)_EST":0.9668,
+  "Ang1(deg)_EST":29.9993
  },
  "23":{
   "bus_name":"710",
   "Bus Nro.":24,
-  "V1(pu)_DSS":0.9611289239,
-  "Ang1(deg)_DSS":29.4146710164,
-  "V1(pu)_EST":0.959,
-  "Ang1(deg)_EST":30.0052
+  "V1(pu)_DSS":0.9611383124,
+  "Ang1(deg)_DSS":29.4140414971,
+  "V1(pu)_EST":0.9595,
+  "Ang1(deg)_EST":30.0083
  },
  "24":{
   "bus_name":"735",
   "Bus Nro.":25,
-  "V1(pu)_DSS":0.9608631005,
-  "Ang1(deg)_DSS":29.4167199247,
-  "V1(pu)_EST":0.9581,
-  "Ang1(deg)_EST":29.9911
+  "V1(pu)_DSS":0.9608724951,
+  "Ang1(deg)_DSS":29.4160897102,
+  "V1(pu)_EST":0.9583,
+  "Ang1(deg)_EST":29.9866
  },
  "25":{
   "bus_name":"736",
   "Bus Nro.":26,
-  "V1(pu)_DSS":0.9603474218,
-  "Ang1(deg)_DSS":29.421707934,
-  "V1(pu)_EST":0.9559,
-  "Ang1(deg)_EST":29.9634
+  "V1(pu)_DSS":0.9603569473,
+  "Ang1(deg)_DSS":29.4210515907,
+  "V1(pu)_EST":0.9553,
+  "Ang1(deg)_EST":29.9427
  },
  "26":{
   "bus_name":"711",
   "Bus Nro.":27,
-  "V1(pu)_DSS":0.9585844454,
-  "Ang1(deg)_DSS":29.3915477498,
-  "V1(pu)_EST":0.9574,
-  "Ang1(deg)_EST":30.0015
+  "V1(pu)_DSS":0.9585940596,
+  "Ang1(deg)_DSS":29.3909098429,
+  "V1(pu)_EST":0.9586,
+  "Ang1(deg)_EST":30.0007
  },
  "27":{
   "bus_name":"741",
   "Bus Nro.":28,
-  "V1(pu)_DSS":0.9584405439,
-  "Ang1(deg)_DSS":29.3909242562,
-  "V1(pu)_EST":0.9571,
-  "Ang1(deg)_EST":29.9984
+  "V1(pu)_DSS":0.9584501738,
+  "Ang1(deg)_DSS":29.3902847088,
+  "V1(pu)_EST":0.9585,
+  "Ang1(deg)_EST":30.0012
  },
  "28":{
   "bus_name":"740",
   "Bus Nro.":29,
-  "V1(pu)_DSS":0.9583179196,
-  "Ang1(deg)_DSS":29.3936075374,
-  "V1(pu)_EST":0.9569,
-  "Ang1(deg)_EST":29.9966
+  "V1(pu)_DSS":0.95832754,
+  "Ang1(deg)_DSS":29.3929689339,
+  "V1(pu)_EST":0.9581,
+  "Ang1(deg)_EST":29.9973
  },
  "29":{
   "bus_name":"718",
   "Bus Nro.":30,
-  "V1(pu)_DSS":0.975763436,
-  "Ang1(deg)_DSS":29.575356144,
-  "V1(pu)_EST":0.9768,
-  "Ang1(deg)_EST":29.9901
+  "V1(pu)_DSS":0.9757697658,
+  "Ang1(deg)_DSS":29.5749700185,
+  "V1(pu)_EST":0.9761,
+  "Ang1(deg)_EST":29.9908
  },
  "30":{
   "bus_name":"744",
   "Bus Nro.":31,
-  "V1(pu)_DSS":0.9729767898,
-  "Ang1(deg)_DSS":29.4655283137,
-  "V1(pu)_EST":0.9749,
-  "Ang1(deg)_EST":30.0017
+  "V1(pu)_DSS":0.9729840498,
+  "Ang1(deg)_DSS":29.4651233602,
+  "V1(pu)_EST":0.9727,
+  "Ang1(deg)_EST":30.0104
  },
  "31":{
   "bus_name":"734",
   "Bus Nro.":32,
-  "V1(pu)_DSS":0.962137105,
-  "Ang1(deg)_DSS":29.4065825727,
-  "V1(pu)_EST":0.9608,
-  "Ang1(deg)_EST":30.0028
+  "V1(pu)_DSS":0.9621463299,
+  "Ang1(deg)_DSS":29.4059827552,
+  "V1(pu)_EST":0.9615,
+  "Ang1(deg)_EST":30.0033
  },
  "32":{
   "bus_name":"737",
   "Bus Nro.":33,
-  "V1(pu)_DSS":0.9599303213,
-  "Ang1(deg)_DSS":29.3973508009,
-  "V1(pu)_EST":0.9588,
-  "Ang1(deg)_EST":30.0005
+  "V1(pu)_DSS":0.9599397716,
+  "Ang1(deg)_DSS":29.3967288468,
+  "V1(pu)_EST":0.9597,
+  "Ang1(deg)_EST":30.0003
  },
  "33":{
   "bus_name":"738",
   "Bus Nro.":34,
-  "V1(pu)_DSS":0.959030984,
-  "Ang1(deg)_DSS":29.3936170086,
-  "V1(pu)_EST":0.9579,
-  "Ang1(deg)_EST":30.0002
+  "V1(pu)_DSS":0.9590405345,
+  "Ang1(deg)_DSS":29.3929854209,
+  "V1(pu)_EST":0.9589,
+  "Ang1(deg)_EST":30.0003
  },
  "34":{
   "bus_name":"728",
   "Bus Nro.":35,
-  "V1(pu)_DSS":0.9725842633,
-  "Ang1(deg)_DSS":29.4690798818,
-  "V1(pu)_EST":0.9741,
-  "Ang1(deg)_EST":29.994
+  "V1(pu)_DSS":0.9725915298,
+  "Ang1(deg)_DSS":29.4686742202,
+  "V1(pu)_EST":0.9715,
+  "Ang1(deg)_EST":29.9897
  },
  "35":{
   "bus_name":"729",
   "Bus Nro.":36,
-  "V1(pu)_DSS":0.972799325,
-  "Ang1(deg)_DSS":29.4670125961,
-  "V1(pu)_EST":0.975,
-  "Ang1(deg)_EST":30.0057
+  "V1(pu)_DSS":0.9728065918,
+  "Ang1(deg)_DSS":29.46660638,
+  "V1(pu)_EST":0.9708,
+  "Ang1(deg)_EST":29.9698
  }
 }
