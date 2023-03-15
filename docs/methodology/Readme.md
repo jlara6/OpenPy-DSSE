@@ -43,7 +43,7 @@ $\mu _{i}\to E\left ( e_{i} \right )=0$ (Eq. 5)
 
 Where $i=1,2,...,m$, the independent measurement errors, $E[e_{i} e_{j}]=0$ then:
  
-$Cov(e)=E[e\cdot e^T]=R=diag\left\{ \sigma _{1}^{2},\sigma _{2}^{2},\cdots ,\sigma _{m}^{2}\right\}$ (Eq. 6)
+$Cov(e)=E[e\cdot e^T]=R=diag\left \{ \sigma _{1}^{2},\sigma _{2}^{2},\cdots ,\sigma _{m}^{2}\right\}$ (Eq. 6)
 
 The standard deviation $$z_{i}$ for each measurement $z_{i}$ is calculated to reflect the expected accuracy of the corresponding meter used.
 
