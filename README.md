@@ -1,8 +1,8 @@
 # OpenPY_DSSE
 
-It is an open-source library developed in Python for estimating distribution networks (DSSE). It communicates with the free software for the simulation of electrical networks (OpenDSS) and collects the results of power flow and distribution system parameters and executes the DSSE, obtaining an estimated state according to the type and location of measurements.
+It is an open-source library developed in Python for estimating distribution networks (DSSE). It communicates with the free software for the simulation of electrical networks ([OpenDSS](https://sourceforge.net/projects/electricdss/)) and collects the results of power flow and distribution system parameters and executes the DSSE, obtaining an estimated state according to the type and location of measurements.
 
-It is developed within the framework of the OpenREiD project (Integral software for simulation and optimization of electrical distribution networks), of the Instituto de Energía Eléctrica (IEE), UNSJ - CONICET, San Juan - Argentina.
+It is developed within the framework of the[ OpenREiD](https://iee-unsjconicet.org/reid/) project (Integral software for simulation and optimization of electrical distribution networks), of the [Instituto de Energía Eléctrica (IEE), UNSJ - CONICET, San Juan - Argentina](https://iee-unsjconicet.org/).
 
 **Index**
 
@@ -17,11 +17,13 @@ It is developed within the framework of the OpenREiD project (Integral software 
 - [License](#id8)
 
 <div id='id0' />
+
 ## Weighted Least Squares (WLS)
 
 The library uses a hybrid weighted least squares algorithm that incorporates traditional and D-PMU measurements. It supports single-phase and multiphase networks that are modeled as electromagnetically decoupled positive sequence impedances. More details can be found in [docs/methodology](https://github.com/jlara6/OpenPy-DSSE/blob/main/docs/methodology/Nonlinear%20Hybrid%20State%20Estimator.ipynb)
 
 <div id='id1' />
+
 ## Installation
 
 With pip
