@@ -2,28 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f5480dc-138e-4a38-9341-a0d317c98895" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/openpy_dsse/COM_interface.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_bc_dsse.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/BC_DSSE/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/BC_DSSE/measurement.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/BC_DSSE/network.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/BC_DSSE/nv_dsse.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample_tests/13NodeIEEE/13NodeIEEE.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Sample_tests/13NodeIEEE/13NodeIEEE.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openpy_dsse/OpenDSS_data_extraction.py" beforeDir="false" afterPath="$PROJECT_DIR$/openpy_dsse/OpenDSS_data_extraction.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/openpy_dsse/base_DSSE.py" beforeDir="false" afterPath="$PROJECT_DIR$/openpy_dsse/base_DSSE.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openpy_dsse/examples/13NodeIEEE/Results/Metrics_13NodeIEEE.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/openpy_dsse/examples/13NodeIEEE/Results/Metrics_13NodeIEEE.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openpy_dsse/examples/13NodeIEEE/Results/Results_DSSE_13NodeIEEE.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/openpy_dsse/examples/13NodeIEEE/Results/Results_DSSE_13NodeIEEE.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openpy_dsse/examples/13NodeIEEE/Results/Results_I_Ang_from_DSSE_13NodeIEEE.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/openpy_dsse/examples/13NodeIEEE/Results/Results_I_Ang_from_DSSE_13NodeIEEE.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openpy_dsse/examples/15NodeIEEE/Results/Metrics_15NodeIEEE.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/openpy_dsse/examples/15NodeIEEE/Results/Metrics_15NodeIEEE.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openpy_dsse/examples/15NodeIEEE/Results/Results_DSSE_15NodeIEEE.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/openpy_dsse/examples/15NodeIEEE/Results/Results_DSSE_15NodeIEEE.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openpy_dsse/examples/15NodeIEEE/Results/Results_I_Ang_from_DSSE_15NodeIEEE.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/openpy_dsse/examples/15NodeIEEE/Results/Results_I_Ang_from_DSSE_15NodeIEEE.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openpy_dsse/examples/37NodeIEEE/Results/Metrics_37nodeIEEE.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/openpy_dsse/examples/37NodeIEEE/Results/Metrics_37nodeIEEE.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openpy_dsse/examples/37NodeIEEE/Results/Results_DSSE_37nodeIEEE.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/openpy_dsse/examples/37NodeIEEE/Results/Results_DSSE_37nodeIEEE.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openpy_dsse/examples/37NodeIEEE/Results/Results_I_Ang_from_DSSE_37nodeIEEE.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/openpy_dsse/examples/37NodeIEEE/Results/Results_I_Ang_from_DSSE_37nodeIEEE.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openpy_dsse/examples/4Node/Results/Metrics_4Node.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/openpy_dsse/examples/4Node/Results/Metrics_4Node.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openpy_dsse/examples/4Node/Results/Results_DSSE_4Node.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/openpy_dsse/examples/4Node/Results/Results_DSSE_4Node.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openpy_dsse/examples/4Node/Results/Results_I_Ang_from_DSSE_4Node.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/openpy_dsse/examples/4Node/Results/Results_I_Ang_from_DSSE_4Node.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/openpy_dsse/state_estimation.py" beforeDir="false" afterPath="$PROJECT_DIR$/openpy_dsse/state_estimation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
