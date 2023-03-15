@@ -39,7 +39,7 @@ h\left (x\right )+e $ (Eq. 4)
 
 Where $h^T=[h_{1}(x),h_{2}(x),...,h_{m}(x)]$ is the function matrix, $x^T=[x_{1},x_{2},...,x_{n}]$ is the state vector and $e^T=[e_{1},e_{2},...,e_{m}]$ is the vector of measurement errors. The statistical properties of the measurement errors:
 
-$\mu _{i}\to E\left ( e_{i} \right )=0$ (Eq. 5)
+$\mu _{i} \to E \left ( e_{i} \right )= 0$ (Eq. 5)
 
 Where $i=1,2,...,m$, the independent measurement errors, $E[e_{i} e_{j}]=0$ then:
  
