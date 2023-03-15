@@ -19,7 +19,7 @@ It is developed within the framework of the OpenREiD project (Integral software 
 <div id='id0' />
 ## Weighted Least Squares (WLS)
 
-The library uses a hybrid weighted least squares algorithm that incorporates traditional and D-PMU measurements. It supports single-phase and multiphase networks that are modeled as electromagnetically decoupled positive sequence impedances. More details can be found in [docs/methodology](https://github.com/jlara6/OpenPy-DSSE/tree/main/docs/methodology)
+The library uses a hybrid weighted least squares algorithm that incorporates traditional and D-PMU measurements. It supports single-phase and multiphase networks that are modeled as electromagnetically decoupled positive sequence impedances. More details can be found in [docs/methodology](https://github.com/jlara6/OpenPy-DSSE/blob/main/docs/methodology/Nonlinear%20Hybrid%20State%20Estimator.ipynb)
 
 <div id='id1' />
 ## Installation
