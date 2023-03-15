@@ -201,9 +201,9 @@ In the path ``:{Python_library_path}/openpy_dsse/examples``, the ``.DSS`` and ``
 | **Circuit** | **Tpy_circ** | **Case** |
 |:------------:|:------------:|:--------:|
 |     4Node    |      1ph     |     1    |
-|  15NodeIEEE  |      1ph     |     2    |
-|  13NodeIEEE  |      Pos     |     1    |
-|  37NodeIEEE  |      Pos     |     2    |
+|  [15NodeIEEE](https://github.com/jlara6/OpenPy-DSSE/blob/main/Sample_tests/15NodeIEEE/15NodeIEEE.ipynb)  |      1ph     |     2    |
+|  [13NodeIEEE](https://github.com/jlara6/OpenPy-DSSE/blob/main/Sample_tests/13NodeIEEE/13NodeIEEE.ipynb)  |      Pos     |     1    |
+|  [37NodeIEEE](https://github.com/jlara6/OpenPy-DSSE/blob/main/Sample_tests/37NodeIEEE/37NodeIEEE.ipynb)  |      Pos     |     2    |
 
 The function ``test_circuit(Typ_cir, case)``, returns a dictionary with the keys ``'DSS_file'``, ``'MEAS_path'``, ``'save_path'``, ``'name_project'`` and ``'Typ_cir'`` which correspond to the ``.DSS`` file path, measurement file path, path where results will be saved and circuit type respectively.
 ```Python
