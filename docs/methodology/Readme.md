@@ -43,7 +43,7 @@ $\mu _{i}\to E\left ( e_{i} \right )=0$ (Eq. 5)
 
 Where $i=1,2,...,m$, the independent measurement errors, $E[e_{i} e_{j}]=0$ then:
  
-$Cov(e)=E[e\cdot e^T]=R=diag\left \{ \sigma _{1}^{2},\sigma _{2}^{2},\cdots ,\sigma _{m}^{2}\right\}$ (Eq. 6)
+$Cov(e)=E[e\cdot e^T]=R=diag \left \{ \sigma _{1}^{2},\sigma _{2}^{2},\cdots ,\sigma _{m}^{2}\right\}$ (Eq. 6)
 
 The standard deviation $$z_{i}$ for each measurement $z_{i}$ is calculated to reflect the expected accuracy of the corresponding meter used.
 
@@ -85,7 +85,7 @@ This iterative process continues until the independent term $\Delta x $ is less 
 
 The model of the Nonlinear State Estimation with D-PMU proceeds in the same way as in the case of conventional measurements. The state vector of voltage $(V_k)$ and Angle $(θ_k)$ where n is the number of circuit nodes, is expressed in polar coordinates $(x=[V_1,V_2,...,V_k,θ_1,θ_2,...,θ_k])$. Starting from a location and type of meters that can be: $V_k, P_k, Q_k, P_{k,m}, Q_{k,m}, I_{k,m}$ in modulus and for $V_k^{pmu}$ and $I_{k,m}^{pmu}$ in polar coordinates, the functions relating the phasor current measurements to the state vector obtained for the generalized $π$ model, taking the admittances in rectangular coordinates [2](https://repositorio.unal.edu.co/handle/unal/51326), leaving $h(x)$ as:
 
-$h(x)^T=\left [ V_k,P_k,Q_k, P_{k,m},Q_{k,m},I_{k,m}, V_k^{pmu},\theta_k^{pmu},(I_{k,m}^{pmu})_r,(I_{k,m}^{pmu})_i\right ]$  (Eq. 16).
+$h(x)^T= \left [ V_k,P_k,Q_k, P_{k,m},Q_{k,m},I_{k,m}, V_k^{pmu},\theta_k^{pmu},(I_{k,m}^{pmu})_r,(I_{k,m}^{pmu})_i \right ]$  (Eq. 16).
 
 The admittance data are extracted from the single-phase (single-phase, starting from a balanced three-phase network) or multiphase circuit modeled in OpenDSS. For a system of mutually coupled multiphase elements they are modeled as electromagnetically decoupled positive sequence impedances in networks with little phase unbalance [3](http://ieeexplore.ieee.org/document/486142/). The vector functions $h(x)$ for both the single-phase and positive-sequence (multiphase) circuit are nonlinear models and formed by the injected power; power flow, branch current, and voltage and current phasor models for both the single-phase and positive-sequence case presented in Table I:
 
@@ -106,9 +106,9 @@ TABLE I. NON-LINEAR FUNCTIONS ACCORDING TO THE TYPE OF MEASUREMENT
 
 In the equations in Table I, $G_{k,m}$ is the nodal conductance, $B_{k,m}$ is the nodal susceptance and $Y_{k,m}=G_{k,m}+jB_{k,m}$ . The injection measurements $PQ_k$ can be $PQ_{k}^{SM}$, $PQ_{k}^{0}$ and $PQ_{k}^{PSD}$ depending on the case of study. In addition, the variances for the currents in rectangular coordinates are calculated:
  
-$\left(\sigma_{\left(I_{k,m}^{pmu}\right)}^{2}\right)_{real}=(cos^2\theta _{I_{k,m}})\sigma_{\left|I_{k,m}\right|}^{2}+(\left|I_{k,m}\right|^2sin^2\theta_{I_{k,m}})\sigma_{\theta_{I_{k,m}}}^2$ (Ec. 7)
+$\left(\sigma_{ \left(I_{k,m}^{pmu} \right)}^{2} \right)_{real}=(cos^2 \theta _{I_{k,m}})\sigma_{ \left|I_{k,m} \right|}^{2}+( \left|I_{k,m} \right|^2sin^2\theta_{I_{k,m}})\sigma_{\theta_{I_{k,m}}}^2$ (Ec. 7)
  
-$\left(\sigma_{\left(I_{k,m}^{pmu}\right)}^{2}\right)_{imag}=(sin^2\theta _{I_{k,m}})\sigma_{\left|I_{k,m}\right|}^{2}+(\left|I_{k,m}\right|^2cos^2\theta_{I_{k,m}})\sigma_{\theta_{I_{k,m}}}^2$ (Ec. 18)
+$ \left(\sigma_{ \left(I_{k,m}^{pmu} \right)}^{2} \right)_{imag}=(sin^2\theta _{I_{k,m}})\sigma_{ \left|I_{k,m} \right|}^{2}+( \left|I_{k,m} \right|^2cos^2\theta_{I_{k,m}})\sigma_{\theta_{I_{k,m}}}^2$ (Ec. 18)
 
 It should be noted that the vector of state variables $x$ has a dimension twice the number of bars minus one $(2×nb-1)$, due to the reference bar of the system, which must be unique for both conventional and phasor measurements. Continuing with the estimation process, the Jacobian matrix $H(x)$ is obtained. 
 

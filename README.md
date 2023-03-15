@@ -1,4 +1,4 @@
-# openpy_dsse
+# OpenPY_DSSE
 
 It is an open-source library developed in Python for estimating distribution networks (DSSE). It communicates with the free software for the simulation of electrical networks (OpenDSS) and collects the results of power flow and distribution system parameters and executes the DSSE, obtaining an estimated state according to the type and location of measurements.
 
@@ -6,6 +6,7 @@ It is developed within the framework of the OpenREiD project (Integral software 
 
 **Index**
 
+- [Weighted Least Squares](#id0)
 - [Installation](#id1)
 - [How to use](#id2)
   - [Measurements](#id3)
@@ -14,6 +15,11 @@ It is developed within the framework of the OpenREiD project (Integral software 
   - [Run the state estimation algorithm](#id6)
   - [Sample tests](#id7)
 - [License](#id8)
+
+<div id='id0' />
+## Weighted Least Squares (WLS)
+
+The library uses a hybrid weighted least squares algorithm that incorporates traditional and D-PMU measurements. It supports single-phase and multiphase networks that are modeled as electromagnetically decoupled positive sequence impedances. More details can be found in [docs/methodology](https://github.com/jlara6/OpenPy-DSSE/tree/main/docs/methodology)
 
 <div id='id1' />
 ## Installation
