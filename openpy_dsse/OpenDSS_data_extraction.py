@@ -6,16 +6,18 @@
 # @Software: PyCharm
 import logging
 
-import py_dss_interface
+
+#import py_dss_interface
 import numpy as np
 import pandas as pd
 import scipy as sp
 import math
 from typing import Dict, Tuple, List
 from .error_handling_logging import update_logg_file
+from .COM_interface import dss
 
 log_py = logging.getLogger(__name__)
-dss = py_dss_interface.DSSDLL()
+#dss = py_dss_interface.DSSDLL()
 
 class OpenDSS_data_collection:
     """
