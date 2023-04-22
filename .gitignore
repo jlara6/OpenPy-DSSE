@@ -123,6 +123,7 @@ ENV/
 env.bak/
 venv.bak/
 share/
+Scripts/
 
 # Spyder project settings
 .spyderproject
@@ -158,5 +159,7 @@ cython_debug/
 poetry-convert.py
 
 
+
+poetry-convert.py
 
 poetry-convert.py

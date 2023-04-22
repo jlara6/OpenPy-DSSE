@@ -8,16 +8,13 @@ dsse = openpy_dsse.init_DSSE(
 if __name__ == '__main__':
     net = dsse.test_circuit(
         Typ_cir='1ph',
-        case=2
+        case=1
     )
     #net = dsse.test_circuit(Typ_cir='Pos', case=2)
 
-    dsse.empty_MEAS_files(DSS_path=net['DSS_file'], MEAS_path=net['MEAS_path'])
+    #dsse.empty_MEAS_files(DSS_path=net['DSS_file'], MEAS_path=net['MEAS_path'])
     #dsse.empty_init_files_MEAS_Unc(DSS_path=net['DSS_file'], MEAS_path_save=net['MEAS_path'])
-    dsse.add_error_files_MEAS(
-        DSS_path=net['DSS_file'],
-        MEAS_path=net['MEAS_path']
-    )
+    #dsse.add_error_files_MEAS(DSS_path=net['DSS_file'], MEAS_path=net['MEAS_path'])
 
     #execute the state estimation algorithm
     V_Ang_EST = dsse.estimate(

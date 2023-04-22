@@ -4,10 +4,26 @@
     <list default="true" id="6f5480dc-138e-4a38-9341-a0d317c98895" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/methodology/Nonlinear Hybrid State Estimator.ipynb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openpy_dsse/base_DSSE.py" beforeDir="false" afterPath="$PROJECT_DIR$/openpy_dsse/base_DSSE.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openpy_dsse/state_estimation.py" beforeDir="false" afterPath="$PROJECT_DIR$/openpy_dsse/state_estimation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openpy_dsse/COM_interface.py" beforeDir="false" afterPath="$PROJECT_DIR$/openpy_dsse/COM_interface.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openpy_dsse/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/openpy_dsse/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openpy_dsse/examples/15NodeIEEE/MEAS_files/Init_Bus_i.json" beforeDir="false" afterPath="$PROJECT_DIR$/openpy_dsse/examples/15NodeIEEE/MEAS_files/Init_Bus_i.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openpy_dsse/examples/15NodeIEEE/MEAS_files/Init_Bus_i_PMU.json" beforeDir="false" afterPath="$PROJECT_DIR$/openpy_dsse/examples/15NodeIEEE/MEAS_files/Init_Bus_i_PMU.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openpy_dsse/examples/15NodeIEEE/MEAS_files/Init_Elem_ft.json" beforeDir="false" afterPath="$PROJECT_DIR$/openpy_dsse/examples/15NodeIEEE/MEAS_files/Init_Elem_ft.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openpy_dsse/examples/15NodeIEEE/MEAS_files/Init_Elem_ft_PMU.json" beforeDir="false" afterPath="$PROJECT_DIR$/openpy_dsse/examples/15NodeIEEE/MEAS_files/Init_Elem_ft_PMU.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openpy_dsse/examples/15NodeIEEE/MEAS_files/MEAS_Bus_i.json" beforeDir="false" afterPath="$PROJECT_DIR$/openpy_dsse/examples/15NodeIEEE/MEAS_files/MEAS_Bus_i.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openpy_dsse/examples/15NodeIEEE/MEAS_files/MEAS_Bus_i_PMU.json" beforeDir="false" afterPath="$PROJECT_DIR$/openpy_dsse/examples/15NodeIEEE/MEAS_files/MEAS_Bus_i_PMU.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openpy_dsse/examples/15NodeIEEE/MEAS_files/MEAS_Elem_ft.json" beforeDir="false" afterPath="$PROJECT_DIR$/openpy_dsse/examples/15NodeIEEE/MEAS_files/MEAS_Elem_ft.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openpy_dsse/examples/15NodeIEEE/MEAS_files/MEAS_Elem_ft_PMU.json" beforeDir="false" afterPath="$PROJECT_DIR$/openpy_dsse/examples/15NodeIEEE/MEAS_files/MEAS_Elem_ft_PMU.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openpy_dsse/examples/4Node/Results/Iij_DSS_EST_no_PU_4Node.png" beforeDir="false" afterPath="$PROJECT_DIR$/openpy_dsse/examples/4Node/Results/Iij_DSS_EST_no_PU_4Node.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openpy_dsse/examples/4Node/Results/Metrics_4Node.json" beforeDir="false" afterPath="$PROJECT_DIR$/openpy_dsse/examples/4Node/Results/Metrics_4Node.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openpy_dsse/examples/4Node/Results/Metrics_4Node.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/openpy_dsse/examples/4Node/Results/Metrics_4Node.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openpy_dsse/examples/4Node/Results/Results_DSSE_4Node.json" beforeDir="false" afterPath="$PROJECT_DIR$/openpy_dsse/examples/4Node/Results/Results_DSSE_4Node.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openpy_dsse/examples/4Node/Results/Results_DSSE_4Node.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/openpy_dsse/examples/4Node/Results/Results_DSSE_4Node.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openpy_dsse/examples/4Node/Results/Results_I_Ang_from_DSSE_4Node.json" beforeDir="false" afterPath="$PROJECT_DIR$/openpy_dsse/examples/4Node/Results/Results_I_Ang_from_DSSE_4Node.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openpy_dsse/examples/4Node/Results/Results_I_Ang_from_DSSE_4Node.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/openpy_dsse/examples/4Node/Results/Results_I_Ang_from_DSSE_4Node.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openpy_dsse/examples/4Node/Results/Vi_DSS_EST_PU_4Node.png" beforeDir="false" afterPath="$PROJECT_DIR$/openpy_dsse/examples/4Node/Results/Vi_DSS_EST_PU_4Node.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,16 +57,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;G:/Mi unidad/GitHub/OpenPy-DSSE&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "G:/Mi unidad/GitHub/OpenPy-DSSE",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
-  <component name="RunManager" selected="Python.poetry-convert">
+}]]></component>
+  <component name="RunManager" selected="Python.main">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="OpenPy-DSSE" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -137,8 +153,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.poetry-convert" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.poetry-convert" />
         <item itemvalue="Python.state_estimation" />
         <item itemvalue="Python.test_bc_dsse" />
       </list>

@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "openpy-dsse"
-version = "0.1.1"
+version = "0.1.4"
 description = "Open source library for state estimation of a distribution network modeled in OpenDSS"
 authors = ["Jorge Lara <jlara@iee.unsj.edu.ar>"]
 license = "LICENSE"
