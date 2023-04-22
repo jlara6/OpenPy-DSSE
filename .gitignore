@@ -23,6 +23,8 @@ var/
 wheels/
 share/python-wheels/
 *.egg-info/
+tests/
+test_bc_dsse.py
 .installed.cfg
 *.egg
 MANIFEST
@@ -156,3 +158,5 @@ cython_debug/
 poetry-convert.py
 
 
+
+poetry-convert.py

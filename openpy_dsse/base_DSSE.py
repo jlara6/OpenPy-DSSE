@@ -52,8 +52,9 @@ class functions_DSSE:
     def check_observability(self, num_state_var, num_measurements, log_py):
         if num_measurements < (2 * num_state_var) - 1:
             update_logg_file("System is not observable (cancelling)", 4, log_py)
-            update_logg_file(f'Measurements available: {num_measurements}. '
-                             f'Measurements required: {(2 * num_state_var) - 1}', 3, log_py)
+            update_logg_file(
+                f'Measurements available: {num_measurements}. '
+                f'Measurements required: {(2 * num_state_var) - 1}', 3, log_py)
             exit()
 
             raise UserWarning("Measurements available: %d. Measurements required: %d" %

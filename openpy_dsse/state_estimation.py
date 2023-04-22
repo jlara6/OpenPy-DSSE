@@ -127,7 +127,7 @@ class init_DSSE(BaseAlgorithm):
         :param DSS_path: OpenDSS circuit file path. Default is None
         :param MEAS_path: Measurement file path. Default is None
         :param path_save: File path where the results will be saved. Default is None
-        :param Typ_cir:  Can be: '1ph' or 'Pos'. Default is None
+        :param Typ_cir: Can be: '1ph' or 'Pos'. Default is None
         :param ALG: For the moment it is node voltage. Default is 'NV'
         :param coord: For the moment are polar coordinates. Default is 'polar'
         :param method: can be: 'nonlinear', 'linear_PMU' and 'nonlinear_PMU'. Default is 'nonlinear_PMU'
