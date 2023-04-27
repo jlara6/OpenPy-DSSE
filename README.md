@@ -1,4 +1,4 @@
-# OpenPY_DSSE
+# OpenPY-DSSE
 
 It is an open-source library developed in Python for estimating distribution networks (DSSE). It communicates with the free software for the simulation of electrical networks ([OpenDSS](https://sourceforge.net/projects/electricdss/)) and collects the results of power flow and distribution system parameters and executes the DSSE, obtaining an estimated state according to the type and location of measurements.
 
@@ -35,6 +35,8 @@ Without pip, clone or download the repository, in the dist folder is the .whl fi
 ``pip install {path-save-files}/openpy_dsse-{version}-py3-none-any.whl’``
 
 <div id='id2'/>
+
+If you have installation problems, you can contact us by email (**jlara@iee.unsj.edu.ar**) or through the same GitHub and according to the error that appears in the console we can give the necessary technical support.
 
 ## How to use  <a name="id1"></a>
 
